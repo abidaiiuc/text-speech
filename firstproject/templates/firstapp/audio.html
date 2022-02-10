@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"
+         href="{% static 'css/about.css' %}">
+    <title>COLLECTION</title>
+</head>
+<body>
+ {% load static %}
+<div class="container1">
+    <div style="text-align:center">
+         <p><h1>PLAY AND HEAR OUR AUDIOBOOK 🎧</h1></p>
+    </div>
+  <div class="row">
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/HP.png' %}" width="312px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/Harry 1.pdf' %}" target="_blank"><h4> HARRY POTTER AND <br>THE PHILOSOPHER'S STONE</h4></a>
+        <audio controls ><source src="{% static 'firstapp/harry.mp3' %}"></audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/leo.png' %}" width="313px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/the 3 question.pdf' %}" target="_blank"><h4> THE THREE QUESTIONS<br>by Leo Tolstoy</h4></a>
+        <audio controls ><source src="{% static 'firstapp/The Three Questions by Leo Tolstoy.mp3' %}"></audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/chuti.png' %}" width="313px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/Chuti.pdf' %}" target="_blank"><h4> CHUTI <br>by Rabindranath Tagore</h4></a>
+        <audio controls ><source src="{% static 'firstapp/Chuti Audio Book.mp3' %}"></audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/hoimonti.jpg' %}" width="313px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/hoimonti.pdf' %}" target="_blank"><h4> Haimanti<br>by Rabindranath Tagore</h4></a>
+        <audio controls ><source src="{% static 'firstapp/Hoimonti.mp3' %}"></audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/shuva.jpg' %}" width="313px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/shuva.pdf' %}" target="_blank"><h4>shuva<br>by Rabindranath Tagore</h4></a>
+        <audio controls ><source src="{% static 'firstapp/shuva.mp3' %}"></audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="car">
+        <img src="{% static 'firstapp/the house.jpg' %}" width="314px" height="250px" class="d-block w-1" alt="...">
+        <a href="{% static 'firstapp/the house.pdf' %}" target="_blank"><h4>The House on The Hill<br> by Elizabeth Laird </h4></a>
+        <audio controls ><source src="{% static 'firstapp/The House.mp3' %}"></audio>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
